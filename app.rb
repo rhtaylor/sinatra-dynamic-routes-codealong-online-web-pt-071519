@@ -13,5 +13,7 @@ class App < Sinatra::Base
   end
 
   # Code your final two routes here:
-
+  get "/multiply/:num1/:num2" do
+    erb :multiply
+  end
 end
