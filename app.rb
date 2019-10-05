@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
 
   # This is a sample dynamic route.
-  post "/goodbye" do
+  get "/goodbye/:name" do
     erb :goodbye
   end
 
